@@ -28,7 +28,9 @@ A integração com a API Kaggle facilita o processo de extração do banco de da
 
 ## Parte 2 - ETL e Bussiness Problems
 
-Nessa etapa utiliza-se o VS Code como software para realizar o processo de tratamento de dados e resolver 9 questões de negócios que auxiliam no entendimento melhor dos dados para as etapas futuras. O arquivo .ipynb dessa etapa está em anexo acima;
+Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de _Extract, Transformation and Load _(ETL) e análises  e resolver 9 questões de negócios que auxiliam no entendimento melhor dos dados para as etapas futuras. O arquivo .ipynb dessa etapa está em anexo acima;
+
+
 
 ## Parte 3 - Power BI de Performance de Vendas
 
