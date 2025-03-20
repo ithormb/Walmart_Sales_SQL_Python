@@ -28,7 +28,20 @@ A integração com a API Kaggle facilita o processo de extração do banco de da
 
 ## Parte 2 - ETL e Bussiness Problems
 
-Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de _Extract, Transformation and Load _(ETL) e análises  e resolver 9 questões de negócios que auxiliam no entendimento melhor dos dados para as etapas futuras. O arquivo .ipynb dessa etapa está em anexo acima;
+Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de *Extract, Transformation and Load* (ETL) dos dados, além da resolução dos *business problems* levantados que irão auxiliar no melhor entendimento do *dataset*. O arquivo colocar_o_nome_do_arquivo.ipynb dessa etapa está em anexo acima. Abaixo, seguem os *business problems* mapeados:
+
+1. Find different payment methods, number of transactions, and quantity sold by payment method
+2. Identify the highest-rated category in each branch. Display the branch, category, and average rating
+3. Identify the busiest day and month for each branch based on the number of transactions
+4. Calculate the total quantity of items sold per payment method
+5. Determine the average, minimum and maximum rating of products for each city
+6. Determine the average profit margin (%) with respect to each city
+7. Determine the most common payment method for each branch
+8. Categorize sales into 3 group Morning, Afternoon, Evening find out which of the shift and number of invoices
+9. 
+  a. Identify 5 branch with highest decrease ratio in
+  b. Revenue compare to last year (current year 2023 and lat year 2022)
+
 
 
 
