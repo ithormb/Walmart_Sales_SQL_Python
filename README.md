@@ -1,8 +1,6 @@
-# Projeto End-to-End - Walmart Sales - ETL & BI & Machine Learning
+# Projeto End-to-End - Walmart Sales - ETL + BI + Machine Learning
 
 ![image](https://github.com/user-attachments/assets/7e1c055c-d639-4084-b984-7033194fba22)
-
-
 
 ## Contexto
 O Projeto end-to-end consiste em utilizar o banco de dados de vendas por filiais da Walmart e gerar insights para a diretoria da empresa trabalhando em 2 frentes:
@@ -39,13 +37,14 @@ Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de 
 7. Determine the most common payment method for each branch
 8. Categorize sales into 3 group Morning, Afternoon, Evening find out which of the shift and number of invoices
 9. 
-  a. Identify 5 branch with highest decrease ratio in
+  a. Identify 5 branch with highest decrease ratio
   b. Revenue compare to last year (current year 2023 and lat year 2022)
 
-
-
-
 ## Parte 3 - Power BI de Performance de Vendas
+
+
+
+## Parte 4 - Machine Learning
 
 
 
