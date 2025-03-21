@@ -33,27 +33,67 @@ api = KaggleApi()
 api.authenticate()
 
 api.dataset_download_file('najir0123/walmart-10k-sales-datasets',
-                          file_name='Walmart.csv')´´´´
+                          file_name='Walmart.csv')
+
+```
 
 ## Parte 2 - ETL e Bussiness Problems
 
 Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de *Extract, Transformation and Load* (ETL) dos dados, além da resolução dos *business problems* levantados que irão auxiliar no melhor entendimento do *dataset*. O arquivo colocar_o_nome_do_arquivo.ipynb dessa etapa está em anexo acima. Abaixo, seguem os *business problems* mapeados:
 
-1. Find different payment methods, number of transactions, and quantity sold by payment method
-2. Identify the highest-rated category in each branch. Display the branch, category, and average rating
-3. Identify the busiest day and month for each branch based on the number of transactions
-4. Calculate the total quantity of items sold per payment method
-5. Determine the average, minimum and maximum rating of products for each city
-6. Determine the average profit margin (%) with respect to each city
-7. Determine the most common payment method for each branch
-8. Categorize sales into 3 group Morning, Afternoon, Evening find out which of the shift and number of invoices
-9. 
-  a. Identify 5 branch with highest decrease ratio
-  b. Revenue compare to last year (current year 2023 and lat year 2022)
+1. Qual os diferentes métodos de pagamento, número de transações e quantidades vendidas por método de pagamento;
+2. Qual a maior "rated" por categoria em cada filial? Mostre a filial, categoria e sua média de "rating";
+3. Qual o melhor dia e mês de venda para cada filial, baseado no número de transações;
+4. Qual o total de itens vendidos por método de pagamento?
+5. Determine a média, mínimo e máximo "rating" dos produtos por cada cidade;
+6. Determine a média da margem de lucro (profit margin) de cada cidade;
+7. Qual é o método de pagamento mais comum para cada filial;
+8. Qual o total de vendas de cada filial por período do dia (Manhã, Tarde e Noite) 
+9. Identifique os 5 maiores decaimento de receita por filial dos anos de 2022 para 2023;
+10. Qual a receita por mês para cada ano?
+
+A partir dos questionamento foi possível realizar algumas análises iniciais que facilitaram o entendimento detalhado do banco de dados e dos painéis necessários pela corpo gerencial da empresa. Assim, na próxima etapa foi realizado o processo de construção da dashboard de acompanhamento de vendas e geração de insights.
 
 ## Parte 3 - Power BI de Performance de Vendas
 
+Para a construção do dashboard de **Performance de Vendas**, foi utilizado o software **Power BI**, seguindo um processo dividido em **quatro etapas macro**. Esse fluxo garante um painel de qualidade e alinhado com as expectativas dos usuários.
 
+### Etapa 1 - Definição da Finalidade e Objetivo do BI  
+Nesta etapa, é fundamental entender **qual problema de negócio o dashboard irá resolver** e quem são os usuários finais da análise. Algumas perguntas norteadoras incluem:  
+- Quais decisões serão tomadas com base nesse painel?  
+- Quem utilizará essas informações e qual nível de detalhe é necessário?  
+- Quais são as principais dores do negócio relacionadas às vendas?  
+
+Esse entendimento permite estruturar um dashboard que seja realmente útil e direcionado para a tomada de decisões.
+
+### Etapa 2 - Definição das Métricas e Indicadores  
+Com os objetivos definidos, o próximo passo é **selecionar os KPIs (Key Performance Indicators)** que serão monitorados no painel. Alguns exemplos incluem:  
+- **Receita Total**: volume de vendas em um determinado período;  
+- **Quantidade de Transações**: número de pedidos realizados;  
+- **Ticket Médio**: receita média por transação;  
+- **Margem de Lucro**: percentual de lucro sobre as vendas;  
+- **Vendas por Período do Dia**: análise do comportamento de compra ao longo do dia;  
+- **Satisfação do Cliente**: análise de ratings e feedbacks.  
+
+A definição de métricas bem estruturadas evita dashboards confusos e garante que os dados sejam relevantes para a empresa.
+
+### Etapa 3 - Extração e Tratamento dos Dados  
+Nesta fase, os dados extraídos passam por um processo de limpeza e transformação para garantir sua qualidade e integridade. As principais atividades incluem:  
+- **Remoção de valores nulos e duplicados**;  
+- **Tratamento de outliers** para evitar distorções nas análises;  
+- **Criação de colunas calculadas e métricas no Power Query**;  
+- **Relacionamento entre tabelas no modelo de dados** para garantir a correta conexão entre fontes de informação.  
+
+O uso correto do **Power Query** e da modelagem de dados no Power BI é essencial para um painel eficiente e com boa performance.
+
+### Etapa 4 - Criação do Layout  
+A última etapa envolve o design e a construção do dashboard. Aqui, considera-se:  
+- **Disposição dos gráficos e tabelas** para facilitar a interpretação;  
+- **Uso de cores e estilos visuais** alinhados com a identidade da empresa;  
+- **Interatividade** com filtros e segmentações que permitam diferentes visões dos dados;  
+- **Testes de usabilidade** para garantir que os usuários entendam o painel e possam extrair insights rapidamente.  
+
+Após a construção, o dashboard é compartilhado com os usuários para feedbacks e ajustes finais antes da publicação.
 
 ## Parte 4 - Machine Learning
 
