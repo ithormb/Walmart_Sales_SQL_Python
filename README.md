@@ -11,18 +11,29 @@ O Projeto end-to-end consiste em utilizar o banco de dados de vendas por filiais
 - **Softwares** - Microsoft Power BI (BI) e Visual Studio Code (VS Code);
 - **Linguagens** - SQL e Python;
 
+## Biblioteca Utilizada
+- **Manipulação e Análise dos dados** - Pandas
+- **Construção dos gráficos** -
+- **Modelos de Machine Learning** -
+
 ## Parte 1 - Integração API Kaggle
+
 A integração com a API Kaggle facilita o processo de extração do banco de dados. Assim, seguindo os passos abaixo você consegue conectar a API no VS Code:
-- Obtenha o token do Kaggle API selecionando em Configuração -> API no seu perfil do Kaggle e selecione em "Create New Token". Assim, você irá realizar o download do arquivo JSON;
-- Salve o arquivo kaggle.json no seu usuário local em uma pasta com o nome .kaggle;
-- Instale a biblioteca da API Kaggle no VS Code:
-  - "!pip install -q kaggle"
-  - import kaggle
-  - from kaggle.api.kaggle_api_extended import KaggleApi
-  - api = KaggleApi()
-  - api.authenticate()
-  - api.dataset_download_file ('najir0123/walmart-10k-sales-datasets',
-                            file_name= 'Walmart.csv')
+
+1. Obtenha o token do Kaggle API selecionando em **Configuração -> API** no seu perfil do Kaggle e selecione **"Create New Token"**. Assim, você irá realizar o download do arquivo JSON.
+2. Salve o arquivo `kaggle.json` no seu usuário local em uma pasta com o nome `.kaggle`.
+3. Instale a biblioteca da API Kaggle no VS Code e autentique-se:
+
+```python
+!pip install -q kaggle
+import kaggle
+from kaggle.api.kaggle_api_extended import KaggleApi
+
+api = KaggleApi()
+api.authenticate()
+
+api.dataset_download_file('najir0123/walmart-10k-sales-datasets',
+                          file_name='Walmart.csv')
 
 ## Parte 2 - ETL e Bussiness Problems
 
