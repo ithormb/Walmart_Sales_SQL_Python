@@ -58,7 +58,7 @@ A partir dos questionamento foi possível realizar algumas análises iniciais qu
 
 Para a construção do dashboard de **Performance de Vendas**, foi utilizado o software **Power BI**, seguindo um processo dividido em **quatro etapas macro**. Esse fluxo garante um painel de qualidade e alinhado com as expectativas dos usuários.
 
-### Etapa 1 - Definição da Finalidade e Objetivo do BI  
+#### Etapa 1 - Definição da Finalidade e Objetivo do BI  
 Nesta etapa, é fundamental entender **qual problema de negócio o dashboard irá resolver** e quem são os usuários finais da análise. Algumas perguntas norteadoras incluem:  
 - Quais decisões serão tomadas com base nesse painel?  
 - Quem utilizará essas informações e qual nível de detalhe é necessário?  
@@ -66,7 +66,7 @@ Nesta etapa, é fundamental entender **qual problema de negócio o dashboard ir�
 
 Esse entendimento permite estruturar um dashboard que seja realmente útil e direcionado para a tomada de decisões.
 
-### Etapa 2 - Definição das Métricas e Indicadores  
+#### Etapa 2 - Definição das Métricas e Indicadores  
 Com os objetivos definidos, o próximo passo é **selecionar os KPIs (Key Performance Indicators)** que serão monitorados no painel. Alguns exemplos incluem:  
 - **Receita Total**: volume de vendas em um determinado período;  
 - **Quantidade de Transações**: número de pedidos realizados;  
@@ -77,7 +77,7 @@ Com os objetivos definidos, o próximo passo é **selecionar os KPIs (Key Perfor
 
 A definição de métricas bem estruturadas evita dashboards confusos e garante que os dados sejam relevantes para a empresa.
 
-### Etapa 3 - Extração e Tratamento dos Dados  
+#### Etapa 3 - Extração e Tratamento dos Dados  
 Nesta fase, os dados extraídos passam por um processo de limpeza e transformação para garantir sua qualidade e integridade. As principais atividades incluem:  
 - **Remoção de valores nulos e duplicados**;  
 - **Tratamento de outliers** para evitar distorções nas análises;  
@@ -86,7 +86,7 @@ Nesta fase, os dados extraídos passam por um processo de limpeza e transformaç
 
 O uso correto do **Power Query** e da modelagem de dados no Power BI é essencial para um painel eficiente e com boa performance.
 
-### Etapa 4 - Criação do Layout  
+#### Etapa 4 - Criação do Layout  
 A última etapa envolve o design e a construção do dashboard. Aqui, considera-se:  
 - **Disposição dos gráficos e tabelas** para facilitar a interpretação;  
 - **Uso de cores e estilos visuais** alinhados com a identidade da empresa;  
