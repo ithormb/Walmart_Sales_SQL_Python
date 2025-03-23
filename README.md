@@ -59,32 +59,28 @@ A partir dos questionamento foi possível realizar algumas análises iniciais qu
 Para a construção do dashboard de **Performance de Vendas**, foi utilizado o software **Power BI**, seguindo um processo dividido em **quatro etapas macro**. Esse fluxo garante um painel de qualidade e alinhado com as expectativas dos usuários.
 
 #### Etapa 1 - Definição da Finalidade e Objetivo do BI  
-Nesta etapa, é fundamental entender **qual problema de negócio o dashboard irá resolver** e quem são os usuários finais da análise. Algumas perguntas norteadoras incluem:  
-- Quais decisões serão tomadas com base nesse painel?  
-- Quem utilizará essas informações e qual nível de detalhe é necessário?  
-- Quais são as principais dores do negócio relacionadas às vendas?  
+Nesta etapa, é fundamental entender **qual problema de negócio o dashboard irá resolver** e quem são os usuários finais da análise. Assim, foram definidos os seguintes pontos:  
+- O BI tem o objetivo de realizar o acompanhamento da performance de vendas e geração de ingishts para os gerentes da empresa;
+- É necessário parametrizar as informações em 3 macro indicadores: Margem de Lucro, Faturamento e Quantidades Vendidas;
+- A partir da parametrização acima, o objetivo do painél trazer o acompanhamento de vendas por série cronologócia, Filiais, categoria de produtos, entre outras variáveis; 
 
 Esse entendimento permite estruturar um dashboard que seja realmente útil e direcionado para a tomada de decisões.
 
-#### Etapa 2 - Definição das Métricas e Indicadores  
-Com os objetivos definidos, o próximo passo é **selecionar os KPIs (Key Performance Indicators)** que serão monitorados no painel. Alguns exemplos incluem:  
-- **Receita Total**: volume de vendas em um determinado período;  
-- **Quantidade de Transações**: número de pedidos realizados;  
-- **Ticket Médio**: receita média por transação;  
-- **Margem de Lucro**: percentual de lucro sobre as vendas;  
-- **Vendas por Período do Dia**: análise do comportamento de compra ao longo do dia;  
-- **Satisfação do Cliente**: análise de ratings e feedbacks.  
+#### Etapa 2 - Definição das Métricas e Indicadores
+Com os objetivos definidos, o próximo passo é **selecionar os KPIs (Key Performance Indicators)** que serão monitorados no painel.Assim, foram definidos os 3 KPIs principais que nortearão as métricas e gráficos e tabelas do painel.
 
-A definição de métricas bem estruturadas evita dashboards confusos e garante que os dados sejam relevantes para a empresa.
+- **Faturamento** - Valor gerado de receita do total dos produtos vendidos;
+- **Margem de Lucro** - Quanto de lucro pelas vendas realizadas;
+- **Quantidade de vendas** - Número de vendas realizadas;
+
+Posteriormente foram analisados e definidos os gráficos e tabelas que iriam compor o painel, de acordo com as informações mais importante e necessárias pelo o time gerencial. A definição de métricas bem estruturadas evita dashboards confusos e garante que os dados sejam relevantes para a empresa.
 
 #### Etapa 3 - Extração e Tratamento dos Dados  
 Nesta fase, os dados extraídos passam por um processo de limpeza e transformação para garantir sua qualidade e integridade. As principais atividades incluem:  
 - **Remoção de valores nulos e duplicados**;  
-- **Tratamento de outliers** para evitar distorções nas análises;  
+- **Tratamento de outliers** para evitar distorções nas análises. Nesse contexto, foram eliminados os dados de vendas de 2012 que não apresentavam dados do ano inteiro (dados apenas de Jan/12 até Mar/12);
 - **Criação de colunas calculadas e métricas no Power Query**;  
 - **Relacionamento entre tabelas no modelo de dados** para garantir a correta conexão entre fontes de informação.  
-
-O uso correto do **Power Query** e da modelagem de dados no Power BI é essencial para um painel eficiente e com boa performance.
 
 #### Etapa 4 - Criação do Layout  
 A última etapa envolve o design e a construção do dashboard. Aqui, considera-se:  
@@ -93,9 +89,11 @@ A última etapa envolve o design e a construção do dashboard. Aqui, considera-
 - **Interatividade** com filtros e segmentações que permitam diferentes visões dos dados;  
 - **Testes de usabilidade** para garantir que os usuários entendam o painel e possam extrair insights rapidamente.  
 
-Após a construção, o dashboard é compartilhado com os usuários para feedbacks e ajustes finais antes da publicação.
+Assim, finaliza-se a construção do dashboard de gestão da performance de vendas, no qual o arquivo `walmartesalesBI.pbix` está disponível para download.
 
 ## Parte 4 - Machine Learning
 
+
+## Parte 5 - Apendizados dos modelos de ML
 
 
