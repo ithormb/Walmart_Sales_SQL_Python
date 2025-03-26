@@ -13,8 +13,9 @@ O Projeto end-to-end consiste em utilizar o banco de dados de vendas por filiais
 
 ## Biblioteca Utilizada
 - **Manipulação e Análise dos dados** - Pandas
-- **Construção dos gráficos** -
-- **Modelos de Machine Learning** -
+- **Construção dos gráficos** - Matplotlib e Seaborn
+- **Modelos de Machine Learning** - Sklearn (KMeans) e SciPy
+- **Mapeamento Geográfico** - Folium e GeoPy
 
 ## Parte 1 - Integração API Kaggle
 
