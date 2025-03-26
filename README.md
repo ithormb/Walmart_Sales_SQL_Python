@@ -39,7 +39,7 @@ api.dataset_download_file('najir0123/walmart-10k-sales-datasets',
 
 ## Parte 2 - ETL e Bussiness Problems
 
-Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de *Extract, Transformation and Load* (ETL) dos dados, além da resolução dos *business problems* levantados que irão auxiliar no melhor entendimento do *dataset*. O arquivo colocar_o_nome_do_arquivo.ipynb dessa etapa está em anexo acima. Abaixo, seguem os *business problems* mapeados:
+Nessa etapa utiliza-se o VS Code como software para realizar todo o processo de *Extract, Transformation and Load* (ETL) dos dados, além da resolução dos *business problems* levantados que irão auxiliar no melhor entendimento do *dataset*. O arquivo `p1_walmart-ETL.ipynb` dessa etapa está em anexo acima. Abaixo, seguem os *business problems* mapeados:
 
 1. Qual os diferentes métodos de pagamento, número de transações e quantidades vendidas por método de pagamento;
 2. Qual a maior "rated" por categoria em cada filial? Mostre a filial, categoria e sua média de "rating";
